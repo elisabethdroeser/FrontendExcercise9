@@ -16,12 +16,10 @@ h1 {
     text-align: left;
 }
 
-form {
-    width: 50%;
-}
 
 .row {
     padding: 10px;
+    width: 50%;
 }
 
 footer {
