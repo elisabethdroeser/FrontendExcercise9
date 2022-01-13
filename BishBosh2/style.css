@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif, verdana;
+}
+
+h1 {
+    background-color: grey; 
+    padding: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    text-align: left;
+}
+
+form {
+    width: 50%;
+}
+
+.row {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
