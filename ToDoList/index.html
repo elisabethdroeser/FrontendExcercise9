@@ -13,11 +13,30 @@
         <h1>ToDoList</h1>
     </header>
     <div class="container">
-        <p>Att köpa:</p>
-        <div class="row">
+        <h2>Att köpa:</h2>
+        <div class="row" id="todo">
             <label for="text" class="form-label"></label>
-            <input type="text" id="product" name="product" id="product" class="form-control"  placeholder="Skriv in den produkt du önskar lägga till">
+            <input type="text" id="product" name="product" class="form-control"  placeholder="Skriv in den produkt du önskar lägga till" />
+            <div>
+                <input type="submit" id="submit" value="Lägg till" />
+            </div>
         </div>
+        <main>
+            <section class="todo-list">
+                <h2>Produkter</h2>
+                <div id="products">
+                    <div class="product">
+                        <div class="content">
+                            <input type="text" class="text" value="oldlist" readonly /> 
+                        </div>
+                        <div class ="actions">
+                            <button class="edit">Edit</button>
+                            <button class="Delete">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
     <footer>
         <p>&copy; Elisabeth Droeser</p>

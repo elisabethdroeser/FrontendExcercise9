@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'montserrat', sans-serif, verdana;
+    background-color: rgb(70, 67, 67);
 }
 
 h1 {
@@ -12,10 +13,17 @@ h1 {
     text-align: center;
 }
 
+
+h2 {
+    color: white;
+}
 .container {
     text-align: left;
 }
 
+input {
+    margin: 10px;
+}
 
 .row {
     padding: 10px;
