@@ -19,6 +19,7 @@ h2 {
 }
 .container {
     text-align: left;
+    height: 400px;
 }
 
 input {
@@ -32,4 +33,5 @@ input {
 
 footer {
     text-align: center;
+    color: white;
 }
