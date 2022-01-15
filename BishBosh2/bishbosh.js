@@ -27,7 +27,9 @@ function myFunction() {
             text.appendChild(list);
         }
         else {
-            console.log(i)
+            //console.log(i)
+            let list = document.createTextNode(i);
+            text.appendChild(list);
             
         }
     }
@@ -41,7 +43,7 @@ submit.addEventListener('click', function () {
 
     p.innerHTML = myFunction();
     //document.body.appendChild(p);
-    text.appendChild(p);
+    //text.appendChild(p);
     //console.log(p);
     //myFunction();
     
