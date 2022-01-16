@@ -4,14 +4,9 @@
 const todo = document.querySelector('#todo-list');
 const input = document.querySelector('#product');
 const list = document.querySelector('#products');
+const add = document.querySelector('#add'); 
 
-todo.addEventListener('submit', (e) => {
-    
-    const product = input.value;
+/*add.addEventListener('click', function () {
+    alert('Skriv önskad produkt och lägg till i listan')
+}*/
 
-    if (!product) {
-        alert('Fyll i önskad produkt')
-    } else {
-        console.log('Success')
-    }
-})

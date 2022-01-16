@@ -17,18 +17,34 @@ h1 {
 h2 {
     color: white;
 }
+
 .container {
     text-align: left;
     height: 400px;
+    background-color: lightslategray;
 }
 
 input {
     margin: 10px;
 }
 
+#todo {
+    background-color: lightgrey;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .row {
     padding: 10px;
     width: 50%;
+}
+
+#products {
+    background-color: lightgrey;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
