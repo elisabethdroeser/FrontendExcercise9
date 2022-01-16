@@ -22,6 +22,9 @@ h1 {
     width: 50%;
 }
 
+#text {
+    padding: 20px;
+}
 footer {
     text-align: center;
 }
